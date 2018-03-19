@@ -47,7 +47,7 @@ public class OpenCommerceAPICredentialsImpl extends BaseStandardCredentials impl
         @Nonnull
         @Override
         public String getDisplayName() {
-            return "OSF Builder Suite :: Open Commerce API";
+            return "OSF Builder Suite :: Open Commerce API Credentials";
         }
     }
 }

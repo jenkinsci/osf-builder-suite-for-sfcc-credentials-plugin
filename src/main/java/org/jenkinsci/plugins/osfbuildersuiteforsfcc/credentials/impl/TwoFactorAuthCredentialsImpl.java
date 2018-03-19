@@ -54,7 +54,7 @@ public class TwoFactorAuthCredentialsImpl extends BaseStandardCredentials implem
         @Nonnull
         @Override
         public String getDisplayName() {
-            return "OSF Builder Suite :: Two Factor Auth";
+            return "OSF Builder Suite :: Two Factor Auth Credentials";
         }
     }
 }
