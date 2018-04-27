@@ -20,11 +20,12 @@ public class OpenCommerceAPICredentialsImpl extends BaseStandardCredentials impl
     private final Secret clientPassword;
 
     @DataBoundConstructor
-    public OpenCommerceAPICredentialsImpl(@CheckForNull CredentialsScope scope,
-                                          @CheckForNull String id,
-                                          @CheckForNull String description,
-                                          @CheckForNull String clientId,
-                                          @CheckForNull String clientPassword) {
+    public OpenCommerceAPICredentialsImpl(
+            @CheckForNull CredentialsScope scope,
+            @CheckForNull String id,
+            @CheckForNull String description,
+            @CheckForNull String clientId,
+            @CheckForNull String clientPassword) {
 
         super(scope, id, description);
 

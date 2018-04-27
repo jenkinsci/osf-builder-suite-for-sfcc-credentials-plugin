@@ -20,11 +20,12 @@ public class BusinessManagerAuthCredentialsImpl extends BaseStandardCredentials 
     private final Secret password;
 
     @DataBoundConstructor
-    public BusinessManagerAuthCredentialsImpl(@CheckForNull CredentialsScope scope,
-                                              @CheckForNull String id,
-                                              @CheckForNull String description,
-                                              @CheckForNull String username,
-                                              @CheckForNull String password) {
+    public BusinessManagerAuthCredentialsImpl(
+            @CheckForNull CredentialsScope scope,
+            @CheckForNull String id,
+            @CheckForNull String description,
+            @CheckForNull String username,
+            @CheckForNull String password) {
 
         super(scope, id, description);
 

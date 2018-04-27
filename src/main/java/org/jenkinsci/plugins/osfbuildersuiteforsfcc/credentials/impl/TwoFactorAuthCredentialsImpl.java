@@ -20,12 +20,13 @@ public class TwoFactorAuthCredentialsImpl extends BaseStandardCredentials implem
     private final String clientPrivateKey;
 
     @DataBoundConstructor
-    public TwoFactorAuthCredentialsImpl(@CheckForNull CredentialsScope scope,
-                                        @CheckForNull String id,
-                                        @CheckForNull String description,
-                                        @CheckForNull String serverCertificate,
-                                        @CheckForNull String clientCertificate,
-                                        @CheckForNull String clientPrivateKey) {
+    public TwoFactorAuthCredentialsImpl(
+            @CheckForNull CredentialsScope scope,
+            @CheckForNull String id,
+            @CheckForNull String description,
+            @CheckForNull String serverCertificate,
+            @CheckForNull String clientCertificate,
+            @CheckForNull String clientPrivateKey) {
 
         super(scope, id, description);
 
