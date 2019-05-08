@@ -17,6 +17,7 @@ public class GitHubCheckRunsCredentialsImpl extends BaseStandardCredentials impl
     private static final long serialVersionUID = 1L;
 
     private final String appId;
+    private final String installationId;
     private final Secret privateKey;
 
     @DataBoundConstructor
@@ -25,17 +26,24 @@ public class GitHubCheckRunsCredentialsImpl extends BaseStandardCredentials impl
             @CheckForNull String id,
             @CheckForNull String description,
             @CheckForNull String appId,
+            @CheckForNull String installationId,
             @CheckForNull String privateKey) {
 
         super(scope, id, description);
 
         this.appId = Util.fixNull(appId);
+        this.installationId = Util.fixNull(installationId);
         this.privateKey = Secret.fromString(privateKey);
     }
 
     @Override
     public String getAppId() {
         return appId;
+    }
+
+    @Override
+    public String getInstallationId() {
+        return installationId;
     }
 
     @Override

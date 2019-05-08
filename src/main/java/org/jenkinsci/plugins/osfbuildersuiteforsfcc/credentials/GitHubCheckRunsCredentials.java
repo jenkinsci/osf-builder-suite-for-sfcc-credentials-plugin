@@ -14,6 +14,9 @@ public interface GitHubCheckRunsCredentials extends StandardCredentials {
     String getAppId();
 
     @SuppressWarnings("unused")
+    String getInstallationId();
+
+    @SuppressWarnings("unused")
     Secret getPrivateKey();
 
     class NameProvider extends CredentialsNameProvider<GitHubCheckRunsCredentials> {
