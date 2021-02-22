@@ -5,7 +5,6 @@ import com.cloudbees.plugins.credentials.impl.BaseStandardCredentials;
 import hudson.Extension;
 import hudson.Util;
 import hudson.util.Secret;
-import org.jenkinsci.plugins.osfbuildersuiteforsfcc.credentials.GitHubCheckRunsCredentials;
 import org.kohsuke.stapler.DataBoundConstructor;
 
 import javax.annotation.CheckForNull;
