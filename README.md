@@ -3,6 +3,10 @@ Provides various credential types for OSF Builder Suite For Salesforce Commerce 
 
 -   [OSF Builder Suite For Salesforce Commerce Cloud ::
     Deploy](https://plugins.jenkins.io/osf-builder-suite-for-sfcc-deploy)
+-   [OSF Builder Suite For Salesforce Commerce Cloud ::
+    Data Import](https://plugins.jenkins.io/osf-builder-suite-for-sfcc-data-import/)
+-   [OSF Builder Suite For Salesforce Commerce Cloud ::
+    Run Job](https://plugins.jenkins.io/osf-builder-suite-for-sfcc-run-job/)
 
 ## Dev
 `mvn hpi:run` - run the plugin
