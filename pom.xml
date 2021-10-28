@@ -16,7 +16,7 @@
 
     <name>OSF Builder Suite For Salesforce Commerce Cloud :: Credentials</name>
     <description>Provides various credential types for OSF Builder Suite For Salesforce Commerce Cloud plugins</description>
-    <url>https://wiki.jenkins.io/display/JENKINS/OSF+Builder+Suite+For+Salesforce+Commerce+Cloud+Credentials+Plugin</url>
+    <url>https://github.com/jenkinsci/osf-builder-suite-for-sfcc-credentials-plugin</url>
 
     <developers>
         <developer>
